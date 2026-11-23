@@ -1,0 +1,58 @@
+PERSONAL MINI-TOOLKIT — PROGRAM PLAN
+====================================
+
+Purpose
+-------
+A friendly menu-driven Python program that gives the user three useful tools.
+
+Tools
+-----
+1. Study Task List
+   - Store tasks in a Python list while the program is running.
+   - Let the user add a task, view all tasks, or return to the main menu.
+   - Tell the user when the list is empty.
+
+2. Grade Average Calculator
+   - Ask how many scores the user wants to enter.
+   - Validate that the count is a positive whole number.
+   - Use a loop to collect scores from 0 to 100.
+   - Calculate and display the average and a simple result category.
+
+3. Basic Calculator
+   - Ask for two numbers.
+   - Let the user choose addition, subtraction, multiplication, or division.
+   - Check for division by zero and invalid choices.
+
+Main menu
+---------
+1. Study Task List
+2. Grade Average Calculator
+3. Basic Calculator
+4. Quit
+
+Program flow
+------------
+- Display the menu inside a while loop.
+- Read the user's menu choice.
+- Use if / elif / else to open the selected tool or show an error.
+- Keep returning to the menu until the user chooses 4.
+- Handle invalid numeric input without crashing.
+
+Data and concepts
+-----------------
+- Variables store choices, scores, numbers, and totals.
+- input() and print() handle user interaction.
+- if / elif / else route menu and calculator choices.
+- while and for loops repeat menus and collect information.
+- A list stores study tasks.
+- Functions keep each tool organized and readable.
+
+Testing checklist
+-----------------
+- Start the program and check that the menu appears.
+- Enter an invalid menu choice and confirm the program continues.
+- Add and view tasks.
+- Calculate an average using valid scores.
+- Try an invalid score and a non-number.
+- Test all calculator operations, including division by zero.
+- Choose Quit and confirm the program ends politely.
